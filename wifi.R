@@ -440,7 +440,7 @@ coordinates_val$BUILDINGID <- validationdata2$BUILDINGID
 
 # creating a googlemaps plot
 
-register_google(key = "AIzaSyBuuXXWaHv37guat1Q3adREvN6jVO-b4Zo")
+register_google(key = "XXX")
 
 # use qmplot to make a scatterplot on a map
 qmplot(LONGITUDE, LATITUDE, data = coordinates_train, color = I("red"))
